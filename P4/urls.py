@@ -25,4 +25,9 @@ urlpatterns = [
     path('third/',views.third,name="third"),
     path('fruits/',views.fruits,name="fruits"),
     path('fifth/',views.fifth,name="fifth"),
-]
+    path('urls_data/<name>',views.urls_data,name="urls_data"),
+    path('ab/<val>',views.ab,name="ab"),
+    path('summation/<a>/<b>',views.summation,name="summation"),
+    path('greatest/<number>',views.greatest,name="greatest"),
+    path('vowel_consonant/<input>',views.vowel_consonant,name="vowel_consonant"),
+    ]
